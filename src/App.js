@@ -1,23 +1,17 @@
-import logo from './logo.svg';
+import { AppBar, Link, Toolbar, Typography } from '@mui/material';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <AppBar flexDirection='row'>
+        <Toolbar sx={{backgroundColor:'white', flexDirection:'row'}}>
+          <Typography component='div' flexGrow='1' color='black' sx={{textAlign:'left'}}>Home</Typography>
+          <Link><Typography paddingX={2} color='black'>Portfolio</Typography></Link>
+          <Link><Typography paddingX={2} color='black'>AI 🤖</Typography></Link>
+          <Link><Typography paddingX={2} color='black'>About</Typography></Link>
+        </Toolbar>
+      </AppBar>
     </div>
   );
 }
