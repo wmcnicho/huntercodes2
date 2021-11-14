@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/huntercodes2/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/huntercodes2/static/js/main.c98452a8.chunk.js",
+    "main.js.map": "/huntercodes2/static/js/main.c98452a8.chunk.js.map",
+    "runtime-main.js": "/huntercodes2/static/js/runtime-main.b97844ea.js",
+    "runtime-main.js.map": "/huntercodes2/static/js/runtime-main.b97844ea.js.map",
+    "static/js/2.288e8595.chunk.js": "/huntercodes2/static/js/2.288e8595.chunk.js",
+    "static/js/2.288e8595.chunk.js.map": "/huntercodes2/static/js/2.288e8595.chunk.js.map",
+    "static/js/3.4e3b9365.chunk.js": "/huntercodes2/static/js/3.4e3b9365.chunk.js",
+    "static/js/3.4e3b9365.chunk.js.map": "/huntercodes2/static/js/3.4e3b9365.chunk.js.map",
+    "index.html": "/huntercodes2/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/huntercodes2/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.288e8595.chunk.js.LICENSE.txt": "/huntercodes2/static/js/2.288e8595.chunk.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/huntercodes2/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b97844ea.js",
+    "static/js/2.288e8595.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.c98452a8.chunk.js"
+  ]
+}
