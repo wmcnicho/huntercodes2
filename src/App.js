@@ -20,7 +20,7 @@ function App() {
           <div className="App">
                 <BrowserRouter>
                   {/* <Navbar /> */}
-                  <Typography variant="h3">TODO: Finish this website</Typography>
+                  <Typography variant="h3">WIP: Working on some updates here. Check back soon.</Typography>
                   <Switch>
                     <Route path="/projects">
                     </Route>
