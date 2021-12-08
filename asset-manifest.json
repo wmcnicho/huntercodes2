@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/huntercodes2/static/css/main.1e009b3f.chunk.css",
-    "main.js": "/huntercodes2/static/js/main.aeafa54d.chunk.js",
-    "main.js.map": "/huntercodes2/static/js/main.aeafa54d.chunk.js.map",
+    "main.js": "/huntercodes2/static/js/main.dd82aab4.chunk.js",
+    "main.js.map": "/huntercodes2/static/js/main.dd82aab4.chunk.js.map",
     "runtime-main.js": "/huntercodes2/static/js/runtime-main.a0bbe078.js",
     "runtime-main.js.map": "/huntercodes2/static/js/runtime-main.a0bbe078.js.map",
     "static/js/2.cb7da251.chunk.js": "/huntercodes2/static/js/2.cb7da251.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a0bbe078.js",
     "static/js/2.cb7da251.chunk.js",
     "static/css/main.1e009b3f.chunk.css",
-    "static/js/main.aeafa54d.chunk.js"
+    "static/js/main.dd82aab4.chunk.js"
   ]
 }
