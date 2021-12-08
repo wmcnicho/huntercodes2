@@ -1,18 +1,40 @@
-import { AppBar, Link, Toolbar, Typography } from '@mui/material';
+import { ThemeProvider, createTheme, AppBar, Toolbar, Typography } from '@mui/material';
+import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import './App.css';
+import Portfolio from './components/Portfolio';
+import Navbar from './NavBar';
+
+let theme = createTheme({
+  typography: {
+    fontFamily:"Nunito Sans",
+    h3: {
+      fontFamily: 'Ubuntu Mono',
+      fontWeight: 300,
+    },
+  }
+ })
 
 function App() {
   return (
-    <div className="App">
-      <AppBar flexDirection='row'>
-        <Toolbar sx={{backgroundColor:'white', flexDirection:'row'}}>
-          <Typography component='div' flexGrow='1' color='black' sx={{textAlign:'left'}}>Home</Typography>
-          <Link><Typography paddingX={2} color='black'>Portfolio</Typography></Link>
-          <Link><Typography paddingX={2} color='black'>AI 🤖</Typography></Link>
-          <Link><Typography paddingX={2} color='black'>About</Typography></Link>
-        </Toolbar>
-      </AppBar>
-    </div>
+        <ThemeProvider theme={theme}>
+          <div className="App">
+                <BrowserRouter>
+                  {/* <Navbar /> */}
+                  <Typography variant="h3">TODO: Finish this website</Typography>
+                  <Switch>
+                    <Route path="/projects">
+                    </Route>
+                    <Route path="/ai">
+                    </Route>
+                    <Route path="/hunter">
+                    </Route>
+                    <Route path="/">
+                      <Portfolio/>
+                    </Route>
+                  </Switch>
+                </BrowserRouter>
+          </div>
+        </ThemeProvider>
   );
 }
 
