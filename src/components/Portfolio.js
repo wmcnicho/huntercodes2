@@ -11,11 +11,12 @@ class Portfolio extends React.Component {
         return(
             <div>
                 <Box pt={12}>
+                    <Typography variant="h4">Recent Projects</Typography>
                     <Grid container p={4} spacing={2}>
                         <Grid item xs={4}>
                             <ProjectCard imgPath='ssnl_logo.png' linkPath="https://www.ssnl.stanford.edu/">
                                 <Typography variant='h5'>SSNL</Typography>
-                                <Typography variant='body2'>Stanford Social Neuroscience Lab</Typography>
+                                <Typography variant='body2'>Built a lab website for some really cool folks at Stanford.</Typography>
                             </ProjectCard>
                         </Grid>
                         <Grid item xs={8}>

@@ -1,6 +1,8 @@
 import { ThemeProvider, createTheme, AppBar, Toolbar, Typography } from '@mui/material';
 import { BrowserRouter, Switch, Route, Link } from "react-router-dom";
 import './App.css';
+import About from './components/About';
+import Ai from './components/Ai';
 import Portfolio from './components/Portfolio';
 import Navbar from './NavBar';
 
@@ -19,14 +21,16 @@ function App() {
         <ThemeProvider theme={theme}>
           <div className="App">
                 <BrowserRouter>
-                  {/* <Navbar /> */}
-                  <Typography variant="h3">WIP: Working on some updates here. Check back soon.</Typography>
+                  <Navbar />
                   <Switch>
                     <Route path="/projects">
+                      <Portfolio/>
                     </Route>
                     <Route path="/ai">
+                      <Ai/>
                     </Route>
                     <Route path="/hunter">
+                      <About/>
                     </Route>
                     <Route path="/">
                       <Portfolio/>
