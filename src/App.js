@@ -23,17 +23,14 @@ function App() {
                 <BrowserRouter>
                   <Navbar />
                   <Switch>
-                    <Route path="/projects">
+                    <Route path={["/projects", "/code", "/codes", "/portfolio"]}>
                       <Portfolio/>
                     </Route>
                     <Route path="/ai">
                       <Ai/>
                     </Route>
-                    <Route path="/hunter">
+                    <Route path={["/about", "/hunter", "/"]}>
                       <About/>
-                    </Route>
-                    <Route path="/">
-                      <Portfolio/>
                     </Route>
                   </Switch>
                 </BrowserRouter>

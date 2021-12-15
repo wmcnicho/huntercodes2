@@ -9,7 +9,7 @@ class Ai extends React.Component {
     render() {
         return(
             <Box pt={12}>
-                <Typography variant="h3">Cooking up the right words, check back soon.</Typography>
+                <Typography variant="h3">Hey how did you find me? I'm still thinking of the right words, check back soon!</Typography>
             </Box>
         )
     }
