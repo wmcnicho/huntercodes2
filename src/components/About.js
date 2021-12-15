@@ -1,4 +1,4 @@
-import { Box, Grid, Typography } from '@mui/material';
+import { Box, Grid, Link, Typography } from '@mui/material';
 import React from 'react'
 
 class About extends React.Component {
@@ -9,7 +9,7 @@ class About extends React.Component {
     render() {
         return(
             <Box pt={12}>
-                <Grid container spacing={2}>
+                <Grid container spacing={2} p={3}>
                     <Grid item md={4} xs={12}>
                         <Box>
                             <Box sx={{  
@@ -23,9 +23,9 @@ class About extends React.Component {
                                     }} pb={2}>
                                 <img src={process.env.PUBLIC_URL + '/img/hunter_small.jpg'}></img>
                             </Box>
-                            <Typography>Hunter McNichols</Typography>
-                            <Typography>Engineer and Educator</Typography>
-                            <Typography>CCNY HunterCodes</Typography>
+                            <Typography variant="h4">Hunter McNichols</Typography>
+                            <Typography variant="h5">Engineer and Educator</Typography>
+                            <Typography variant="h5"><Link href='https://www.ccny.cuny.edu/'>CCNY</Link> <Link href='https://huntercodes.com/hunter'>HunterCodes</Link></Typography>
                         </Box>
                     </Grid>
                     <Grid item md={8} xs={12} sx={{textAlign:'left'}}>

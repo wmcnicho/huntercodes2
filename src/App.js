@@ -13,6 +13,19 @@ let theme = createTheme({
       fontFamily: 'Ubuntu Mono',
       fontWeight: 300,
     },
+  },
+  components: {
+    MuiLink: {
+      styleOverrides: {
+        root: {
+          color:'#a9a9a9',
+          textDecoration: 'none',
+          ':hover': {
+            textDecoration: 'underline'
+          }
+        }
+      }
+    },
   }
  })
 
