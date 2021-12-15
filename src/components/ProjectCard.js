@@ -17,7 +17,10 @@ class ProjectCard extends React.Component {
                                 transform:"scale(1.25)"
                             },
                             "&:hover .MuiBox-root":{
-                                display:'flex'
+                                display:'flex',
+                            },
+                            "& .MuiLink-root:hover": {
+                                textDecoration:'none',
                             }
                             }} > 
                             <Link href={this.props.linkPath} sx={{textDecoration:'none'}}>
