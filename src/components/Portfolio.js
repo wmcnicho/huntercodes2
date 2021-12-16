@@ -15,12 +15,11 @@ class Portfolio extends React.Component {
                         <Typography variant="h4">Portfolio</Typography>
                         <Typography variant="body" sx={{textAlign:'left'}}>Some of my work from the last couple of years.</Typography>
                     </Box>
-                    
                     <Grid container p={4} spacing={2}>
                         <Grid item md={4} xs={12}>
-                            <ProjectCard imgPath='ssnl_logo.png' linkPath="https://www.ssnl.stanford.edu/">
-                                <Typography variant='h5'>SSNL</Typography>
-                                <Typography variant='body2'>Built a lab website for some really cool folks at Stanford.</Typography>
+                            <ProjectCard imgPath='drake_robot.jpg' linkPath="https://github.com/wmcnicho/DrakeGenerator">
+                                <Typography variant='h5'>DrakeGen</Typography>
+                                <Typography variant='body2'>Experimenting to see if I can make an AI that generates new Drake lyrics.</Typography>
                             </ProjectCard>
                         </Grid>
                         <Grid item md={8} xs={12}>
@@ -36,15 +35,21 @@ class Portfolio extends React.Component {
                             </ProjectCard>
                         </Grid>
                         <Grid item md={4} xs={12}>
-                            <ProjectCard imgPath='radial_design.png' linkPath="https://www.cathylewislcsw.com/">
-                                <Typography variant='h5'>Cathy Lewis</Typography>
-                                <Typography variant='body2'>In 2020 I built a portfolio website.</Typography>
+                            <ProjectCard imgPath='ssnl_logo.png' linkPath="https://www.ssnl.stanford.edu/">
+                                <Typography variant='h5'>SSNL</Typography>
+                                <Typography variant='body2'>Built a lab website for some really cool folks at Stanford.</Typography>
                             </ProjectCard>
                         </Grid>
                         <Grid item md={4} xs={12}>
-                            <ProjectCard imgPath='perch_battery.jpg'>
-                                <Typography variant='h5'>Perch</Typography>
-                                <Typography variant='body2'>In 2020 I redesigned a website for a Boston-based startup Perch.</Typography>
+                            <ProjectCard imgPath='dragonbot1.jpg' linkPath="https://www.youtube.com/watch?v=jDC4gEA5FE0">
+                                <Typography variant='h5'>DragonBot Card Games</Typography>
+                                <Typography variant='body2'>For my senior capstone project at USC I worked in a small team to build a tablet card game experience with a robot.</Typography>
+                            </ProjectCard>
+                        </Grid>
+                        <Grid item md={4} xs={12}>
+                            <ProjectCard imgPath='radial_design.png' linkPath="https://www.cathylewislcsw.com/">
+                                <Typography variant='h5'>Cathy Lewis</Typography>
+                                <Typography variant='body2'>In 2020 I built a portfolio website.</Typography>
                             </ProjectCard>
                         </Grid>
                         <Grid item md={8} xs={12}>
@@ -54,9 +59,9 @@ class Portfolio extends React.Component {
                             </ProjectCard>
                         </Grid>
                         <Grid item md={4} xs={12}>
-                            <ProjectCard imgPath='dragonbot1.jpg' linkPath="https://www.youtube.com/watch?v=jDC4gEA5FE0">
-                                <Typography variant='h5'>DragonBot Card Games</Typography>
-                                <Typography variant='body2'>For my senior capstone project at USC I worked in a small team to build a tablet card game experience with a robot.</Typography>
+                            <ProjectCard imgPath='perch_battery.jpg'>
+                                <Typography variant='h5'>Perch</Typography>
+                                <Typography variant='body2'>In 2020 I redesigned a website for a Boston-based startup Perch.</Typography>
                             </ProjectCard>
                         </Grid>
                     </Grid>
