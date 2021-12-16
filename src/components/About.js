@@ -1,4 +1,7 @@
-import { Box, Grid, Link, Typography } from '@mui/material';
+import { Box, Grid, IconButton, Link, Typography } from '@mui/material';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import FileOpenIcon from '@mui/icons-material/FileOpen';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import React from 'react'
 
 class About extends React.Component {
@@ -25,7 +28,19 @@ class About extends React.Component {
                             </Box>
                             <Typography variant="h4">Hunter McNichols</Typography>
                             <Typography variant="h5">Engineer and Educator</Typography>
-                            <Typography variant="h5"><Link href='https://www.ccny.cuny.edu/'>CCNY</Link> <Link href='#'>HunterCodes</Link></Typography>
+                            <Typography variant="h5"><Link href='https://www.ccny.cuny.edu/'>CCNY</Link> <Link href='.'>HunterCodes</Link></Typography>
+                            <Box display='flex' justifyContent='center'>
+                                <IconButton href="https://github.com/wmcnicho">
+                                    <GitHubIcon />
+                                </IconButton>
+                                <IconButton href="https://www.linkedin.com/in/wmcnicho/">
+                                    <LinkedInIcon />
+                                </IconButton>
+                                <IconButton href={process.env.PUBLIC_URL + '/files/resume_public_12_15_pdf.pdf'}>
+                                    <FileOpenIcon />
+                                </IconButton>
+                                
+                            </Box>
                         </Box>
                     </Grid>
                     <Grid item md={8} xs={12} sx={{textAlign:'left'}}>
