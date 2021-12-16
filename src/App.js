@@ -18,7 +18,7 @@ let theme = createTheme({
     MuiLink: {
       styleOverrides: {
         root: {
-          color:'#a9a9a9',
+          color:'#424242',
           textDecoration: 'none',
           ':hover': {
             textDecoration: 'underline'

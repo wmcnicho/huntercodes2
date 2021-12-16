@@ -11,6 +11,11 @@ class Portfolio extends React.Component {
         return(
             <div>
                 <Box pt={10}>
+                    <Box sx={{textAlign:'left'}} pl={6}>
+                        <Typography variant="h4">Portfolio</Typography>
+                        <Typography variant="body" sx={{textAlign:'left'}}>Some of my work from the last couple of years.</Typography>
+                    </Box>
+                    
                     <Grid container p={4} spacing={2}>
                         <Grid item md={4} xs={12}>
                             <ProjectCard imgPath='ssnl_logo.png' linkPath="https://www.ssnl.stanford.edu/">
