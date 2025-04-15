@@ -53,7 +53,7 @@ class Portfolio extends React.Component {
                             </ProjectCard>
                         </Grid>
                         <Grid item md={8} xs={12}>
-                            <ProjectCard imgPath='work_vine.jpg' linkPath="workvineyard.com">
+                            <ProjectCard imgPath='work_vine.jpg' linkPath="https://workvineyard.com">
                                 <Typography variant='h5'>Work Vineyard</Typography>
                                 <Typography variant='body2'>In 2019 I built a website for a vineyard in Napa Valley.</Typography>
                             </ProjectCard>
