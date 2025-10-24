@@ -1,0 +1,100 @@
+{
+  "publications": [
+    {
+      "id": 0,
+      "title": "The StudyChat Dataset: Exploring Student Dialogues with ChatGPT in an Artificial Intelligence Course",
+      "authors": "McNichols, H., Ikram, F., and Lan, A.",
+      "venue": "Under Review",
+      "venueDetails": "",
+      "year": 2025,
+      "abstract": "We introduce StudyChat, a publicly available dataset of over 16,000 real-world student interactions with an LLM-powered tutoring chatbot in a university AI course. We analyze these interactions and find that students who use the LLM for conceptual understanding perform better on assignments and exams, while those who use it to bypass learning objectives tend to perform worse.",
+      "tags": ["Conversational Datasets", "CS Education", "Classroom Study", "Learning Analytics"],
+      "equalContribution": false,
+      "url": "https://arxiv.org/abs/2503.07928"
+    },
+    {
+      "id": 1,
+      "title": "Using Item Features to Calibrate Educational Test Items: Comparing Artificial Intelligence and Classical Approaches",
+      "authors": "Tran, P., Feng, W., Sireci, S. G., McNichols, H., and Lan, A.",
+      "venue": "American Journal of Education and Learning",
+      "venueDetails": "10(2), 178–189",
+      "year": 2025,
+      "abstract": "This study compares artificial intelligence and classical approaches for calibrating educational test items using item features, examining the effectiveness of modern AI techniques in educational assessment.",
+      "tags": ["Educational Assessment", "Item Response Theory", "AI in Education"],
+      "equalContribution": false,
+      "url": "https://onlinesciencepublishing.com/index.php/ajel/article/view/1543/1699"
+    },
+    {
+      "id": 2,
+      "title": "Exploring Automated Keyword Mnemonics Generation with Large Language Models via Overgenerate-and-Rank",
+      "authors": "Lee, J., McNichols, H., and Lan, A.",
+      "venue": "Findings of the 2024 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+      "venueDetails": "",
+      "year": 2024,
+      "abstract": "We present a novel approach for automatically generating keyword mnemonics using large language models through an overgenerate-and-rank strategy, helping students create memorable associations for vocabulary learning.",
+      "tags": ["NLP", "Large Language Models", "Educational Technology", "Memory Aids"],
+      "equalContribution": false,
+      "url": "https://arxiv.org/abs/2409.13952"
+    },
+    {
+      "id": 3,
+      "title": "Exploring Automated Distractor Generation for Math Multiple-Choice Questions via Large Language Models",
+      "authors": "Feng, W.*, Lee, J.*, McNichols, H.*, Scarlatos, A.*, Smith, D., Woodhead, S., Ornelas, N., and Lan, A.",
+      "venue": "Findings of the Association for Computational Linguistics: NAACL",
+      "venueDetails": "",
+      "year": 2024,
+      "abstract": "This work investigates using large language models to automatically generate plausible incorrect answer choices (distractors) for mathematics multiple-choice questions, addressing a key challenge in educational assessment creation.",
+      "tags": ["Large Language Models", "Mathematics Education", "Question Generation", "Educational Assessment"],
+      "equalContribution": true,
+      "url": "https://arxiv.org/abs/2404.02124"
+    },
+    {
+      "id": 4,
+      "title": "Can Large Language Models Replicate ITS Feedback on Open-Ended Math Questions?",
+      "authors": "McNichols, H., Lee, J., Fancsali, S., Ritter, S., and Lan, A.",
+      "venue": "Proceedings of the 17th International Conference on Educational Data Mining (EDM)",
+      "venueDetails": "",
+      "year": 2024,
+      "abstract": "We evaluate whether large language models can replicate the quality and style of feedback provided by intelligent tutoring systems on open-ended mathematics problems, exploring the potential for AI-generated educational feedback.",
+      "tags": ["Intelligent Tutoring Systems", "Large Language Models", "Educational Data Mining", "Automated Feedback"],
+      "equalContribution": false,
+      "url": "https://arxiv.org/abs/2405.06414"
+    },
+    {
+      "id": 5,
+      "title": "Automated Distractor and Feedback Generation for Math Multiple-choice Questions via In-context Learning",
+      "authors": "McNichols, H.*, Feng, W.*, Lee, J.*, Scarlatos, A., Smith, D., Woodhead, S., and Lan, A.",
+      "venue": "GAIED Workshop at NeurIPS",
+      "venueDetails": "",
+      "year": 2023,
+      "abstract": "We demonstrate how in-context learning can be leveraged to automatically generate both distractors and feedback for mathematics multiple-choice questions, reducing the manual effort required in educational content creation.",
+      "tags": ["In-context Learning", "Mathematics Education", "Question Generation", "AI in Education"],
+      "equalContribution": true,
+      "url": "https://arxiv.org/abs/2308.03234"
+    },
+    {
+      "id": 6,
+      "title": "A Conceptual Model for End-to-End Causal Discovery in Knowledge Tracing",
+      "authors": "Kumar, N. A., Feng, W., Lee, J., McNichols, H., Ghosh, A., and Lan, A.",
+      "venue": "Proceedings of the 16th International Conference on Educational Data Mining (EDM)",
+      "venueDetails": "",
+      "year": 2023,
+      "abstract": "This paper proposes a conceptual framework for applying causal discovery methods to knowledge tracing, aiming to better understand the causal relationships between student knowledge states and learning outcomes.",
+      "tags": ["Knowledge Tracing", "Causal Discovery", "Educational Data Mining", "Learning Analytics"],
+      "equalContribution": false,
+      "url": "https://educationaldatamining.org/EDM2023/proceedings/2023.EDM-posters.42/"
+    },
+    {
+      "id": 7,
+      "title": "Algebra Error Classification with Large Language Models",
+      "authors": "McNichols, H., Zhang, M., and Lan, A.",
+      "venue": "International Conference on Artificial Intelligence in Education (AIED)",
+      "venueDetails": "",
+      "year": 2023,
+      "abstract": "We explore the use of large language models for automatically classifying common algebraic errors made by students, providing insights into student misconceptions and enabling more targeted educational interventions.",
+      "tags": ["Large Language Models", "Error Analysis", "Mathematics Education", "AI in Education"],
+      "equalContribution": false,
+      "url": "https://arxiv.org/abs/2305.06163"
+    }
+  ]
+}

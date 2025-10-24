@@ -14,6 +14,7 @@ class Navbar extends React.Component {
                     <Typography component='div' flexGrow='1' color='black' sx={{textAlign:'left'}}></Typography>
                     <Link component={RouterLink} to="/hunter"><Typography paddingX={2} color='black'>Hunter</Typography></Link>
                     <Link component={RouterLink} to="/code"><Typography paddingX={2} color='black'>Codes</Typography></Link>
+                    <Link component={RouterLink} to="/pubs"><Typography paddingX={2} color='black'>Pubs</Typography></Link>
                     {/* <Link component={RouterLink} to="/ai"><Typography paddingX={2} color='black'>AI 🤖</Typography></Link> */}
                 </Toolbar>
             </AppBar>

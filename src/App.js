@@ -4,6 +4,7 @@ import './App.css';
 import About from './components/About';
 import Ai from './components/Ai';
 import Portfolio from './components/Portfolio';
+import Pubs from './components/Pubs';
 import Navbar from './NavBar';
 
 let theme = createTheme({
@@ -38,6 +39,9 @@ function App() {
                   <Switch>
                     <Route path={["/projects", "/code", "/codes", "/portfolio"]}>
                       <Portfolio/>
+                    </Route>
+                    <Route path={["/pubs", "/publications"]}>
+                      <Pubs/>
                     </Route>
                     <Route path="/ai">
                       <Ai/>
