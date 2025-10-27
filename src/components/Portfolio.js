@@ -1,5 +1,5 @@
 import React from 'react'
-import {Box, Grid, Typography} from '@mui/material';
+import {Box, Grid, Link, Typography} from '@mui/material';
 import ProjectCard from './ProjectCard';
 
 class Portfolio extends React.Component {
@@ -12,41 +12,41 @@ class Portfolio extends React.Component {
             <div>
                 <Box pt={10}>
                     <Box sx={{textAlign:'left'}} pl={6}>
-                        <Typography variant="h4">Portfolio</Typography>
-                        <Typography variant="body" sx={{textAlign:'left'}}>Some of my work from the last couple of years.</Typography>
+                        <Typography variant="h4">Selected Projects</Typography>
+                        <Typography variant="body" sx={{textAlign:'left'}}>Some fun projects I worked on in the past, a mixture of both personal and professional. If you're looking for my published research, that can be found <Link href="./pubs">here</Link>.</Typography>
                     </Box>
                     <Grid container p={4} spacing={2}>
                         <Grid item md={4} xs={12}>
                             <ProjectCard imgPath='drake_robot.jpg' linkPath="https://github.com/wmcnicho/DrakeGenerator">
                                 <Typography variant='h5'>DrakeGen</Typography>
-                                <Typography variant='body2'>Experimenting to see if I can make an AI that generates new Drake lyrics.</Typography>
-                            </ProjectCard>
-                        </Grid>
-                        <Grid item md={8} xs={12}>
-                            <ProjectCard imgPath='jetalbert_mockup_sm.png' linkPath="https://www.jetalbertbeta.com/">
-                                <Typography variant='h5'>JetAlbert</Typography>
-                                <Typography variant='body2'>In 2020 I built a React web application for a small startup.</Typography>
+                                <Typography variant='body2'>In 2020, I explored if neural networks could be used to make an AI that generates new Drake lyrics. I prototyped and compared a variety of sequential neural networks approaches.</Typography>
                             </ProjectCard>
                         </Grid>
                         <Grid item md={4} xs={12}>
-                            <ProjectCard imgPath='ProjectSlippi.png' linkPath="https://github.com/vladfi1/slippi-ai">
+                            <ProjectCard imgPath='ProjectSlippi.png' linkPath="https://github.com/vladfi1/slippi-ai/pull/24">
                                 <Typography variant='h5'>Slippi</Typography>
-                                <Typography variant='body2'>Teaching neural networks to be better than me at video games.</Typography>
+                                <Typography variant='body2'>In 2021, I trained neural networks to beat me at video games. I built a transformer-based network to play Super Smash Bros. Melee which I compared with other sequential networks.</Typography>
                             </ProjectCard>
                         </Grid>
                         <Grid item md={4} xs={12}>
                             <ProjectCard imgPath='ssnl_logo.png' linkPath="https://www.ssnl.stanford.edu/">
                                 <Typography variant='h5'>SSNL</Typography>
-                                <Typography variant='body2'>Built a lab website for some really cool folks at Stanford.</Typography>
+                                <Typography variant='body2'>In 2021, I built a lab website for some really cool folks at Stanford. This was a project as a part of HunterCodes, a freelance software contracting business which I operated from 2019-2022.</Typography>
                             </ProjectCard>
                         </Grid>
                         <Grid item md={4} xs={12}>
                             <ProjectCard imgPath='dragonbot1.jpg' linkPath="https://www.youtube.com/watch?v=jDC4gEA5FE0">
                                 <Typography variant='h5'>DragonBot Card Games</Typography>
-                                <Typography variant='body2'>For my senior capstone project at USC I worked in a small team to build a tablet card game experience with a robot.</Typography>
+                                <Typography variant='body2'>In 2016, I prototyped a tablet card game experience with a robot for my senior capstone project. I know it's old but this was a fun one!</Typography>
                             </ProjectCard>
                         </Grid>
-                        <Grid item md={4} xs={12}>
+                        <Grid item md={8} xs={12}>
+                            <ProjectCard imgPath='jetalbert_mockup_sm.png' linkPath="https://www.jetalbert.com/">
+                                <Typography variant='h5'>JetAlbert</Typography>
+                                <Typography variant='body2'>In 2020, I prototyped a React web application for a small startup. This was also a professional project as a part of HunterCodes.</Typography>
+                            </ProjectCard>
+                        </Grid>
+                        {/* <Grid item md={4} xs={12}>
                             <ProjectCard imgPath='radial_design.png' linkPath="https://www.cathylewislcsw.com/">
                                 <Typography variant='h5'>Cathy Lewis</Typography>
                                 <Typography variant='body2'>In 2020 I built a portfolio website.</Typography>
@@ -63,7 +63,7 @@ class Portfolio extends React.Component {
                                 <Typography variant='h5'>Perch</Typography>
                                 <Typography variant='body2'>In 2020 I redesigned a website for a Boston-based startup Perch.</Typography>
                             </ProjectCard>
-                        </Grid>
+                        </Grid> */}
                     </Grid>
                 </Box>
             </div>

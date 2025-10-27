@@ -91,7 +91,7 @@ class Pubs extends React.Component {
                             }}>
                                 <CardContent sx={{ textAlign: 'center', p: 3 }}>
                                     <Typography variant="body2" color="text.secondary">
-                                        View my complete publication list and citation metrics on <Link href="https://scholar.google.com/citations?user=ucPEkvoAAAAJ" target="_blank">Google Scholar</Link>.
+                                        View my complete publication information on <Link href="https://scholar.google.com/citations?user=ucPEkvoAAAAJ" target="_blank">Google Scholar</Link>.
                                     </Typography>
                                 </CardContent>
                             </Card>
