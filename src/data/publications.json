@@ -4,7 +4,7 @@
       "id": 0,
       "title": "The StudyChat Dataset: Exploring Student Dialogues with ChatGPT in an Artificial Intelligence Course",
       "authors": "McNichols, H., Ikram, F., and Lan, A.",
-      "venue": "Under Review",
+      "venue": "LAK 2026: The 16th International Learning Analytics and Knowledge Conference",
       "venueDetails": "",
       "year": 2025,
       "abstract": "We introduce StudyChat, a publicly available dataset of over 16,000 real-world student interactions with an LLM-powered tutoring chatbot in a university AI course. We analyze these interactions and find that students who use the LLM for conceptual understanding perform better on assignments and exams, while those who use it to bypass learning objectives tend to perform worse.",

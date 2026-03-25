@@ -43,7 +43,7 @@ class Portfolio extends React.Component {
                         <Grid item md={8} xs={12}>
                             <ProjectCard imgPath='jetalbert_mockup_sm.png' linkPath="https://www.jetalbert.com/">
                                 <Typography variant='h5'>JetAlbert</Typography>
-                                <Typography variant='body2'>In 2020, I prototyped a React web application for a small startup. This was also a professional project as a part of HunterCodes.</Typography>
+                                <Typography variant='body2'>As a part of HunterCodes, in 2020 I prototyped a React web application for a small startup.</Typography>
                             </ProjectCard>
                         </Grid>
                         {/* <Grid item md={4} xs={12}>
@@ -51,19 +51,19 @@ class Portfolio extends React.Component {
                                 <Typography variant='h5'>Cathy Lewis</Typography>
                                 <Typography variant='body2'>In 2020 I built a portfolio website.</Typography>
                             </ProjectCard>
-                        </Grid>
+                        </Grid>*/}
                         <Grid item md={8} xs={12}>
                             <ProjectCard imgPath='work_vine.jpg' linkPath="https://workvineyard.com">
                                 <Typography variant='h5'>Work Vineyard</Typography>
-                                <Typography variant='body2'>In 2019 I built a website for a vineyard in Napa Valley.</Typography>
+                                <Typography variant='body2'>As a part of HunterCodes, in 2019 I built a website for a vineyard in Napa Valley.</Typography>
                             </ProjectCard>
                         </Grid>
                         <Grid item md={4} xs={12}>
-                            <ProjectCard imgPath='perch_battery.jpg'>
+                            <ProjectCard imgPath='perch_battery.jpg' linkPath="https://perch.fit/">
                                 <Typography variant='h5'>Perch</Typography>
-                                <Typography variant='body2'>In 2020 I redesigned a website for a Boston-based startup Perch.</Typography>
+                                <Typography variant='body2'>As a part of HunterCodes, in 2020 I redesigned a website for a Boston-based startup, Perch.</Typography>
                             </ProjectCard>
-                        </Grid> */}
+                        </Grid> 
                     </Grid>
                 </Box>
             </div>
